@@ -1,0 +1,13 @@
+const theme = {
+  colors: {
+    FORTE_WHITE: `#FFFFFF`,
+    FORTE_GRAYSCALE_50: `#F8F9FA`,
+    FORTE_GRAYSCALE_100: `#F1F3F4`,
+    FORTE_GRAYSCALE_200: '#E8EAED',
+    FORTE_GRAYSCALE_300: `#DADCE0`,
+    FORTE_GRAYSCALE_500: `#9AA0A6`,
+    FORTE_DEFAULT_TEXT: `#202124`,
+  },
+};
+
+export default theme;

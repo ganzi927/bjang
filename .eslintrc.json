@@ -15,18 +15,13 @@
   "overrides": [],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
-    //        "project": "./tsconfig.json",
     "sourceType": "module",
     "tsconfigRootDir": "__dirname"
-    //        "project": ["tsconfig.json"] // Specify it only for TypeScript files
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
     "prettier/prettier": "off",
-    "react/jsx-filename-extension": [
-      2,
-      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
-    ],
+    "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
     "react/no-unknown-property": ["error", { "ignore": ["css"] }],
     "import/prefer-default-export": "off",
     "no-alert": "off",

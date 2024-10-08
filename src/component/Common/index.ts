@@ -7,6 +7,7 @@ import Tooltips from './Tooltips';
 import OutlinedTextField from './OutlinedTextField';
 import Radios from './Radio';
 import RadiosGroups from './RadioGroup';
+import CheckBox from './CheckBox';
 
 export {
   Tab,
@@ -18,4 +19,5 @@ export {
   OutlinedTextField,
   Radios,
   RadiosGroups,
+  CheckBox,
 };
